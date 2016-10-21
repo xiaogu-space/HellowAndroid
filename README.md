@@ -1,6 +1,5 @@
 # HellowAndroid
 android 用到基础东西 mvp+rxjava+retrofit
-用到的类库
     compile 'com.jakewharton:butterknife:8.4.0'
 
     apt 'com.jakewharton:butterknife-compiler:8.4.0'
@@ -16,3 +15,4 @@ android 用到基础东西 mvp+rxjava+retrofit
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
     compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+
