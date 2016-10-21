@@ -1,7 +1,8 @@
 # HellowAndroid
 android 用到基础东西 mvp+rxjava+retrofit
-    compile 'com.jakewharton:butterknife:8.4.0'
 
+用到的类库
+    compile 'com.jakewharton:butterknife:8.4.0'
     apt 'com.jakewharton:butterknife-compiler:8.4.0'
 
     compile 'com.facebook.stetho:stetho:1.4.1'
