@@ -2,6 +2,7 @@
 android 用到基础东西 mvp+rxjava+retrofit
 
 用到的类库
+
     compile 'com.jakewharton:butterknife:8.4.0'
     apt 'com.jakewharton:butterknife-compiler:8.4.0'
 
