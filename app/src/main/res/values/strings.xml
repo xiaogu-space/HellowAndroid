@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">hellowandroid</string>
+
+    <string name="get_info">获取信息</string>
 </resources>
