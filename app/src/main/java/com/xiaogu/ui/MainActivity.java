@@ -1,5 +1,6 @@
 package com.xiaogu.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -28,9 +29,14 @@ public class MainActivity extends MvpActivity<MainPressenter> implements MainVie
         return new MainPressenter(this);
     }
 
-    @OnClick({R.id.btn})
+    @OnClick({R.id.btn_toolbar, R.id.btn})
     public void onClick(View view) {
         switch (view.getId()) {
+            case R.id.btn_toolbar:
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, ToolbarActivity.class);
+                startActivity(intent);
+                break;
             case R.id.btn:
                 mvpPresenter.getApi();
                 break;
