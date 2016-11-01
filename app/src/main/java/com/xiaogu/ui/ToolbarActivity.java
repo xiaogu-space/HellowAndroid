@@ -10,13 +10,11 @@ import com.xiaogu.utils.ToastUtils;
 
 import butterknife.BindView;
 
-import static com.xiaogu.R.id.toolbar;
-
 /**
  * toobar 的用法
  */
 public class ToolbarActivity extends BaseActivity {
-    @BindView(toolbar)
+    @BindView(R.id.toolbar)
     Toolbar mToolbarTb;
 
     @Override
